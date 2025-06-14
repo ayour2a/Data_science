@@ -1,0 +1,12 @@
+prefix=c:/Users/ayour/Music/no_lele/venv/Library
+exec_prefix=c:/Users/ayour/Music/no_lele/venv/Library
+libdir=c:/Users/ayour/Music/no_lele/venv/Library/lib
+includedir=c:/Users/ayour/Music/no_lele/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: 
+Requires.private: 
+Cflags: -I${includedir} 
