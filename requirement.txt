@@ -2,3 +2,5 @@ pandas
 numpy
 textblob
 nltk
+nltk.download("all")
+scikit-learn
